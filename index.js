@@ -29,10 +29,10 @@ function sayHiToGrandma(string){
 
 
 if (sayHiToGrandma('hello') === "I can't hear you!"){
-  consloe.log("she couldnt hear")
+  console.log("she couldnt hear")
 }
 else{
-  consloe.log("eh")
+  console.log("eh")
 }
 
 
