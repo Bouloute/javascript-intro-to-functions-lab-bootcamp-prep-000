@@ -1,17 +1,15 @@
 function shout(string){
-  return(STRING.toUpperCase())
+  return(string.toUpperCase())
 }
 
 function whisper(string){
-  return(string.toCase())
+  return(string.toLowerCase())
 }
 
-describe('whisper(string)', function() {
-  it('receives one argument and returns it in all lowercase', function() {
-    expect(whisper('HELLO')).toEqual('hello')
-  })
-})
-
+function logShout(string){
+  console.log(shout(string))
+}
+/*
 describe('logShout(string)', function() {
   it('calls console.log() its one argument in all caps', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
@@ -49,3 +47,4 @@ describe('sayHiToGrandma(string)', function() {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
 })
+*/
