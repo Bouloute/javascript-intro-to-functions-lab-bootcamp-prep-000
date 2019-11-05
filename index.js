@@ -19,15 +19,16 @@ function sayHiToGrandma(string){
     return("I can't hear you!")
   }
   else if (string === string.toUpperCase()){
-    console.log('YES INDEED!')
+    return('YES INDEED!')
   }
   else if (string === "I love you, Grandma."){
-    console.log('I love you, too.')
+    return('I love you, too.')
   }
+  return ("eh")
 }
 
 
-if (sayHiToGrandma('hello') == "I can't hear you!"){
+if (sayHiToGrandma('hello') === "I can't hear you!"){
   consloe.log("she couldnt hear")
 }
 else{
